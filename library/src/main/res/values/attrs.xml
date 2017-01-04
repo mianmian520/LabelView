@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="LabelView">
+        <!--背景颜色-->
+        <attr name="backgroundColor" format="color"/>
+        <!--标题字体颜色-->
+        <attr name="textTitleColor" format="color"/>
+        <!--内容字体颜色-->
+        <attr name="textContentColor" format="color"/>
+        <!--标题-->
+        <attr name="textTitle" format="string"/>
+        <!--内容-->
+        <attr name="textContent" format="string"/>
+        <!--标题字体大小-->
+        <attr name="textTitleSize" format="dimension"/>
+        <!--内容字体大小-->
+        <attr name="textContentSize" format="dimension"/>
+
+        <attr name="labelTopPadding" format="dimension"/>
+        <attr name="labelCenterPadding" format="dimension"/>
+        <attr name="labelBottomPadding" format="dimension"/>
+        <attr name="labelTopDistance" format="dimension"/>
+
+        <attr name="textTitleStyle">
+            <enum name="normal" value="0"/>
+            <enum name="italic" value="1"/>
+            <enum name="bold" value="2"/>
+        </attr>
+
+        <attr name="textContentStyle">
+            <enum name="normal" value="0"/>
+            <enum name="italic" value="1"/>
+            <enum name="bold" value="2"/>
+        </attr>
+
+        <attr name="direction">
+            <enum name="leftTop" value="-45"/>
+            <enum name="rightTop" value="45"/>
+        </attr>
+    </declare-styleable>
+</resources>
